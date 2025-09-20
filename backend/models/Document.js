@@ -6,7 +6,7 @@ const documentSchema = new mongoose.Schema({
     required: true
   },
   content: {
-    type: String,
+    type: String,   // could store Yjs state as stringified JSON
     default: ""
   },
   workspace: {
